@@ -1,0 +1,223 @@
+/* Resetting default browser styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+#main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+#img-div {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-caption {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+#tribute-info {
+  margin-bottom: 20px;
+}
+
+#tribute-link {
+  display: block;
+  text-align: center;
+  color: blue;
+  text-decoration: none;
+}
+
+#tribute-link:hover {
+  text-decoration: underline;
+}
+
+** end of undefined **
+
+** start of undefined **
+
+/* Resetting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Navbar styles */
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 1rem;
+  z-index: 999; /* Ensure the navbar stays on top */
+}
+
+#navbar ul {
+  list-style-type: none;
+}
+
+#navbar li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Welcome section styles */
+#welcome-section {
+  text-align: center;
+  padding: 5rem 0; /* Add padding to vertically center the content */
+  background-color: #f9f9f9;
+}
+
+#welcome-section h1 {
+  font-size: 2.5rem;
+}
+
+/* Projects section styles */
+#projects {
+  padding: 4rem 0; /* Add padding for spacing */
+}
+
+.project-tile {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.project-tile h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.project-tile p {
+  margin-bottom: 1rem;
+}
+
+.project-link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  background-color: #555;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #333;
+  color: #fff;
+}
+
+#profile-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+#profile-link:hover {
+  text-decoration: underline;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  #navbar {
+    padding: 0.5rem; /* Reduce padding for smaller screens */
+  }
+
+  #navbar li {
+    display: block; /* Change list items to display vertically */
+    margin-bottom: 0.5rem; /* Add spacing between list items */
+  }
+
+  #navbar a {
+    display: block; /* Ensure links take full width */
+  }
+}
+/* Resetting default browser
+styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+#main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+#title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+#img-div {
+  text-align: center;
+  margin-bottom: 20px;
+}
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+#img-caption {
+  margin-top: 10px;
+  font-style: italic;
+}
+#tribute-info {
+  margin-bottom: 20px;
+}
+#tribute-link {
+  display: block;
+  text-align: center;
+  color: blue;
+  text-decoration: none;
+}
+#tribute-link:hover {
+  text-decoration: underline;
+}
